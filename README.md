@@ -26,32 +26,15 @@ Note: Keep all the switch faults in off position
 6.	Plot the Signals: Use Matplotlib to plot the message signal, carrier signal, and modulated signal.
 
 ## Program
-```import numpy as np
-import matplotlib.pyplot as plt
-Am=4.1
-fm=356
-fs=35600
-Ac=8.2
-fc=3560
-t=np.arange(0,2/fm,1/fs)
-m=Am*np.cos(2*np.pi*fm*t)
-plt.subplot(3,1,1)
-plt.plot(t,m)
-c=Ac*np.cos(2*np.pi*fc*t)
-plt.subplot(3,1,2)
-plt.plot(t,c)
-s=(Ac+m)*np.cos(2*3.14*fc*t)
-plt.subplot(3,1,3)
-plt.plot(t,s)
-plt.tight_layout()
-plt.show()
-```
+
+<img width="363" height="452" alt="Screenshot 2025-10-23 203118" src="https://github.com/user-attachments/assets/0f4f5bfe-6b71-4664-9bab-7c08882a18bb" />
 
 ## Output Waveform
-<img width="782" height="585" alt="image" src="https://github.com/user-attachments/assets/639fa09d-1161-4ccd-854f-15f8660fd30c" />
+
+<img width="748" height="584" alt="Screenshot 2025-10-23 203130" src="https://github.com/user-attachments/assets/136db7d9-5dd5-45ea-9948-79f363cf778c" />
 
 ## Tabular Column
-<img width="940" height="1271" alt="image" src="https://github.com/user-attachments/assets/bb0a5982-1ea3-4cf3-bb9f-ced6b3289c11" />
+
 
 ## Result
 The message signal, carrier signal, and Amplitude modulated (AM) signal will be displayed in separate plots. The modulated signal will show frequency variations corresponding to the amplitude of the message signal.
