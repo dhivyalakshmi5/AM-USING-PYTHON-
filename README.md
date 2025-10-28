@@ -26,12 +26,29 @@ Note: Keep all the switch faults in off position
 6.	Plot the Signals: Use Matplotlib to plot the message signal, carrier signal, and modulated signal.
 
 ## Program
-
-<img width="363" height="452" alt="Screenshot 2025-10-23 203118" src="https://github.com/user-attachments/assets/0f4f5bfe-6b71-4664-9bab-7c08882a18bb" />
-
+```
+import numpy as np
+import matplotlib.pyplot as plt
+Am=3.2
+fm=283
+fs=28300
+Ac=6.4
+fc=2830
+t=np.arange(0,2/fm,1/fs)
+m=Am*np.cos(2*np.pi*fm*t)
+plt.subplot(3,1,1)
+plt.plot(t,m)
+c=Ac*np.cos(2*np.pi*fc*t)
+plt.subplot(3,1,2)
+plt.plot(t,c)
+s=(Ac+m)*np.cos(2*3.14*fc*t)
+plt.subplot(3,1,3)
+plt.plot(t,s)
+plt.tight_layout()
+plt.show()
+```
 ## Output Waveform
-
-<img width="748" height="584" alt="Screenshot 2025-10-23 203130" src="https://github.com/user-attachments/assets/136db7d9-5dd5-45ea-9948-79f363cf778c" />
+<img width="826" height="602" alt="Screenshot 2025-10-28 173256" src="https://github.com/user-attachments/assets/4a200c9e-6518-4753-9447-43f404a6d639" />
 
 ## Tabular Column
 
