@@ -51,6 +51,9 @@ plt.show()
 <img width="826" height="602" alt="Screenshot 2025-10-28 173256" src="https://github.com/user-attachments/assets/4a200c9e-6518-4753-9447-43f404a6d639" />
 
 ## Tabular Column
+![WhatsApp Image 2025-10-30 at 10 20 09_84abdf75](https://github.com/user-attachments/assets/3ee7964e-1f72-4072-b34f-4ff62f3ba5ce)
+## Calculation
+![WhatsApp Image 2025-10-30 at 10 20 23_c412eab5](https://github.com/user-attachments/assets/7c558318-4c05-4578-9815-a7c40c8ebb96)
 
 
 ## Result
